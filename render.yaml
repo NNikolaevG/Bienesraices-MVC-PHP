@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: bienesraices-mvc-php
+    env: docker
+    plan: free
+    branch: main
+    buildCommand: ''
+    startCommand: 'php -S 0.0.0.0:10000 -t public'
